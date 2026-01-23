@@ -34,7 +34,7 @@ In dieser Übung vertiefen Sie Ihre Kenntnisse zu Metadaten und können anhand v
 
 Für das Verständnis dieser Übung werden vorausgesetzt:
 
--   Die Teilnehmenden sollten die verschiedenen Arten von Metadaten bereits benennen können. Eine Einführung zu den verschiedenen Arten von Metadaten [finden Sie unter diesem Link](https://nfdi4objects.github.io/oer-skript-metadaten/).
+-   Die Teilnehmenden sollten die verschiedenen Arten von Metadaten bereits benennen können. Eine Einführung zu den verschiedenen Arten von Metadaten [finden Sie unter diesem Link]({{< meta skript-metadaten-url >}}).
 
 <!-- Versuchen sie so detailliert wie möglich die Voraussetzungen für das Verständnis des Bausteins aufzuzählen. Geben sie Hinweise, wo die Lernenden entsprechende/s Kompetenzen/Wissen erwerben können. Damit sind nicht nur Kenntnisse im Forschunsdatenmanagement gemeint sondern auch Grund-Kompetenzen aus der Data Literacy und methodisch-praktische Kompetenzen gemeint. -->
 
@@ -54,7 +54,7 @@ In der ADS Library finden sich zahlreiche archäologische Zeitschriften, die ret
 ::: panel-tabset
 #### Aufgabenstellung
 
-**Schauen Sie sich das Titelbild der Zeitschrift und die zugehörigen Metadaten an: Welche verschiedenen Arten von Metadaten können Sie finden?**
+Schauen Sie sich das Titelbild der Zeitschrift und die zugehörigen Metadaten an: Welche verschiedenen Arten von Metadaten können Sie finden?. *Hinweis: Durch Klicken auf das Bild, können Sie es sich vergrößert ansehen.*
 
 ::::: columns
 
