@@ -31,13 +31,13 @@ Normdaten sorgen dafür, dass Personen, Orte, Institutionen oder Begriffe eindeu
 
 Stellen Sie sich vor, Sie recherchieren einen Datenbestand, der laut Metadaten aus Frankfurt stammt. Welches Frankfurt ist gemeint? Frankfurt am Main? Frankfurt an der Oder? **Ohne weitere Informationen können nicht eindeutige Begriffe die Nutzenden verwirren und machen den Datensatz im schlimmsten Fall unbrauchbar**, da er seinen Kontext verliert. 
 
-Dies gilt ebenso für **gleichlautende Personennamen** oder **Institutionen, die beispielsweise ihren Namen ändern**, sodass alle Metadaten, die den alten Namen nennen, evtl. nicht mehr verstanden werden. Schließlich sind Begriffe, mit denen Datensätze und Dateien beschrieben werden, möglicherweise aufgrund von **Synonymen und Homonymen** nicht eindeutig. So kann ein digitales Grabungsfoto beispielsweise synonym als Bild, als Foto, als digitales Bild oder als Digitalfoto bezeichnet werden.
+Dies gilt ebenso für **gleichlautende Personennamen** oder **Institutionen, die beispielsweise ihren Namen ändern**, sodass alle Metadaten, die den alten Namen nennen, eventuell nicht mehr verstanden werden. Schließlich sind Begriffe, mit denen Datensätze und Dateien beschrieben werden, möglicherweise aufgrund von **Synonymen und Homonymen** nicht eindeutig. So kann ein digitales Grabungsfoto beispielsweise synonym als Bild, als Foto, als digitales Bild oder als Digitalfoto bezeichnet werden.
 
 Damit Personen, Institutionen, Ortsangaben und Begriffe eindeutig zugewiesen werden können und gleiche Dinge mit gleichen Begriffen bezeichnet werden, greift man unter anderem auf **Normdaten** zurück.
 
 **Was sind Normdaten?**
 
-Normdaten sind normierte Bezeichnungen, denen eindeutige Identifikatoren (PIDs) zugeordnet sind, sodass auch gleichlautende Bezeichnungen unterschieden werden können. Der bekannteste Normdatendienst in Deutschland ist die **Gemeinsame Normdatei (GND)** der Deutschen Nationalbibliothek. Der Dienst umfasst Personen, Körperschaften, Konferenzen, Geografika, Sachbegriffe und Werke, die in Bezug zu kulturellen und wissenschaftlichen Sammlungen stehen. Die GND ist über den [GND-Explorer](https://explore.gnd.network/) recherchierbar.
+Normdaten sind normierte Bezeichnungen, denen persistente Identifikatoren (PIDs) zugeordnet sind, sodass auch gleichlautende Bezeichnungen unterschieden werden können. Der bekannteste Normdatendienst in Deutschland ist die **Gemeinsame Normdatei (GND)** der Deutschen Nationalbibliothek. Der Dienst umfasst Personen, Körperschaften, Konferenzen, Geografika, Sachbegriffe und Werke, die in Bezug zu kulturellen und wissenschaftlichen Sammlungen stehen. Die GND ist über den [GND-Explorer](https://explore.gnd.network/) recherchierbar.
 
 ### Voraussetzungen {.kolophon .unnumbered .unlisted}
 
@@ -58,7 +58,7 @@ Als Autor des Artikels ist der **"Topograph Paulus"** genannt:
 ::: panel-tabset
 #### Aufgabenstellung
 
-Recherchieren Sie, mithilfe des [GND-Explorers](https://explore.gnd.network/) **um welche Person es sich handelt**.
+Recherchieren Sie, mithilfe des [GND-Explorers](https://explore.gnd.network/) **um welche Person es sich handelt** und ermitteln Sie die **GND-Nummer**.
 
 Können Sie die Person **zweifelsfrei zuordnen**? Begründen Sie Ihre Entscheidung.
 
@@ -93,9 +93,9 @@ Im Jahrbuch von 1866 findet sich ein Artikel, bei dem der Autor als **"Architekt
 
 Recherchieren Sie erneut im GND-Explorer, **um welche Person es sich handelt**.
 
-Handelt es sich denselben Autor wie im Artikel von 1847? **Welche Schwierigkeiten treten bei der Zuordnung auf?**
+Handelt es sich um denselben Autor wie im Artikel von 1847? **Welche Schwierigkeiten treten bei der Zuordnung auf?**
 
-**welche Angaben müssten in einem Normdatensatz zu Personen enthalten sein**, um sie zuverlässig zu identifizieren?
+**Welche Angaben müssten in einem Normdatensatz zu Personen enthalten sein**, um sie zuverlässig zu identifizieren?
 
 #### Lösung
 
@@ -103,7 +103,7 @@ Eine Eingabe **„Architekt Eduard Paulus“** im GND-Explorer liefert keinen Tr
 
 ![Eingabe "Architekt Eduard Paulus" in den GND-Explorer mit Ergebnis](img/Screenshot_GND-explorer_Architekt-Paulus_2025-09-09_114710.jpg)
 
-Bei einer Recherche nach **„Eduard Paulus“** erscheinen sowohl der Vater als auch der Sohn, die **denselben Namen und eine ähnliche Profession** teilen. Beide lebten und wirkten in den 1860er Jahren, daher lassen sich Name und Lebensdaten allein nicht zur eindeutigen Zuordnung nutzen.
+Bei einer Recherche nach **„Eduard Paulus“** erscheinen sowohl der Vater als auch der Sohn, die **denselben Namen ähnliche Professionen** teilen. Beide lebten und wirkten in den 1860er Jahren, daher lassen sich Name und Lebensdaten allein nicht zur eindeutigen Zuordnung nutzen.
 
 ![Vergleich der beiden Personen mit dem Namen "Eduard Paulus" im GND-Explorer](img/Screenshot_GND-explorer_Eduard-Paulus_2025-09-09_114710.jpg)
 
@@ -184,7 +184,7 @@ Darüber hinaus gibt es auf bestimmte Entitäten spezialisierte Normdatendienste
 
 - [Geonames](https://www.geonames.org/) ist beispielsweise ein Normdatendienst, der auf **Geografika** spezialisiert ist. 
 - In [Iconclass](https://iconclass.org/de/_) sind **ikonographische Themen** klassifiziert 
-- und der [Getty Art&Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) enthält **Kunst- und Kulturobjekt-bezogene Normdaten**. 
+- Der [Getty Art&Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) enthält **Kunst- und Kulturobjekt-bezogene Normdaten**. 
 
 Erkunden Sie die verschiedenen Normdatendienste und machen Sie sich mit ihnen vertraut. Recherchieren Sie dazu Beispiele wie **"Eduard Paulus"**, **"Zazenhausen"**, **"Königliche Staatssammlung Vaterländischer Kunst- und Altertums-Denkmale"** sowie nach den Begriffen **"Amphore"** und **"Jupiter"**. Überlegen Sie, welche Normdatendienste Sie für die Erschließung Ihrer eigenen Projekte nutzen würden, und begründen Sie Ihre Wahl.
 
@@ -214,7 +214,7 @@ Unser Wunsch ist ein lebendiges, stetig aktualisiertes Dokument, das sich durch 
 
 ## Disclaimer: Einsatz von LLM {.appendix .unnumbered}
 
-Bei der Erarbeitung dieser Website wurde die freie Version von ChatGPT 5 zur Unterstützung eingesetzt. die Nutzung umfasste für Formulierungshilfen und Rechtschreibprüfung. Es wird ausdrücklich darauf hingewiesen, dass die endgültige Verantwortung für die inhaltliche Richtigkeit bei der Autorin liegt
+Bei der Erarbeitung dieser Website wurde die freie Version von ChatGPT-5 zur Unterstützung eingesetzt. Die Nutzung umfasste Formulierungshilfen und Rechtschreibprüfung. Es wird ausdrücklich darauf hingewiesen, dass die endgültige Verantwortung für die inhaltliche Richtigkeit bei der Autorin liegt.
 
 ------------------------------------------------------------------------
 
