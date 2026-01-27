@@ -1,6 +1,6 @@
-# NFDI4objects-OER-Baustein einer Übung zum Thema Metadaten
+# NFDI4objects-OER-Baustein einer Übung zum Thema Normdaten
 
-Dieses Repository enthält einen OER-Baustein für eine Übung zum Thema Metadaten (oer-uebung-metadatentypen.qmd)
+Dieses Repository enthält einen OER-Baustein für eine Übung zum Thema Normdaten (oer-uebung-normdaten.qmd)
 
 Im Ordner "img" befindet sich das Bildmaterial, das im Script verwendet wird.
 Die Metadaten für den OER-Baustein befinden sich in den Dateien "autor_innen.yml", "oer_metadata.yml" und im Header der qmd-Datei.

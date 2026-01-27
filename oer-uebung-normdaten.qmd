@@ -1,0 +1,246 @@
+---
+title: "Übung Normdaten"
+lang: de
+date: today
+date-format: "DD.MM.YYYY"
+date-modified: last-modified
+metadata-files:
+  - _layout.yml
+  - _autor_innen.yml
+  - _oer_metadata.yml
+# Optional
+bibliography: bibliographie.bib
+toc: true
+toc-expand: true
+toc-title: |
+toc-location: right
+number-sections: true # Auf false setzen, wenn keine automatische Abschnittsnummerierung gewünscht
+lightbox: true
+crossref: 
+  lof-title: "Liste der Abbildungen"
+# Für CI-build in github
+execute:
+  freeze: auto
+---
+
+## Praktische Bezüge
+
+Normdaten sorgen dafür, dass Personen, Orte, Institutionen oder Begriffe eindeutig identifiziert werden können.
+
+**Warum ist das wichtig?**
+
+Stellen Sie sich vor, Sie recherchieren einen Datenbestand, der laut Metadaten aus Frankfurt stammt. Welches Frankfurt ist gemeint? Frankfurt am Main? Frankfurt an der Oder? **Ohne weitere Informationen können nicht eindeutige Begriffe die Nutzenden verwirren und machen den Datensatz im schlimmsten Fall unbrauchbar**, da er seinen Kontext verliert. 
+
+Dies gilt ebenso für **gleichlautende Personennamen** oder **Institutionen, die beispielsweise ihren Namen ändern**, sodass alle Metadaten, die den alten Namen nennen, evtl. nicht mehr verstanden werden. Schließlich sind Begriffe, mit denen Datensätze und Dateien beschrieben werden, möglicherweise aufgrund von **Synonymen und Homonymen** nicht eindeutig. So kann ein digitales Grabungsfoto beispielsweise synonym als Bild, als Foto, als digitales Bild oder als Digitalfoto bezeichnet werden.
+
+Damit Personen, Institutionen, Ortsangaben und Begriffe eindeutig zugewiesen werden können und gleiche Dinge mit gleichen Begriffen bezeichnet werden, greift man unter anderem auf **Normdaten** zurück.
+
+**Was sind Normdaten?**
+
+Normdaten sind normierte Bezeichnungen, denen eindeutige Identifikatoren (PIDs) zugeordnet sind, sodass auch gleichlautende Bezeichnungen unterschieden werden können. Der bekannteste Normdatendienst in Deutschland ist die **Gemeinsame Normdatei (GND)** der Deutschen Nationalbibliothek. Der Dienst umfasst Personen, Körperschaften, Konferenzen, Geografika, Sachbegriffe und Werke, die in Bezug zu kulturellen und wissenschaftlichen Sammlungen stehen. Die GND ist über den [GND-Explorer](https://explore.gnd.network/) recherchierbar.
+
+### Voraussetzungen {.kolophon .unnumbered .unlisted}
+
+Für das erfolgreiche Absolvieren dieser Übung sollten die Teilnehmer:innen über einen Internetzugang verfügen.
+
+## Aufgabenstellungen
+
+Die Bedeutung von Normdaten zeigt sich besonders dort, wo sie **fehlen**. Vor allem in älteren Publikationen begegnen uns häufig uneinheitliche oder variierende Bezeichnungen von Personen, Orten, Institutionen und Objekten. Dadurch wird eine eindeutige Identifikation erschwert. In den folgenden Aufgaben lernen Sie am Beispiel von Artikeln aus dem [Jahrbuch des „Vereins von Alterthumsfreunden im Rheinlande“](https://journals.ub.uni-heidelberg.de/index.php/bjb/issue/archive) (vol. 10, 1847 und vol. 39/40, 1866) zu römischen Fundstellen im Raum Stuttgart, wie Normdaten funktionieren und wie man sie praktisch nutzt.
+
+### Aufgabe 1 - Eindeutige Personenzuordnung mithilfe von Normdaten
+
+Im Jahrbuch von 1847 gibt es einen Artikel zur römischen Niederlassung bei Köngen in der mittleren Neckargegend. [Dieser Link führt zum Digitalisat der Publikation](https://journals.ub.uni-heidelberg.de/index.php/bjb/article/view/23912).
+
+Als Autor des Artikels ist der **"Topograph Paulus"** genannt:
+
+![Ausschnitt aus dem [Jahrbuch des Vereins von Alterthumsfreunden im Rheinlande Band 10, 1847](https://doi.org/10.11588/bjb.1847.0.23912)](img/Jb_AlterthumsfreundeRheinland1847_Paulus.jpg)
+
+::: panel-tabset
+#### Aufgabenstellung
+
+Recherchieren Sie, mithilfe des [GND-Explorers](https://explore.gnd.network/) **um welche Person es sich handelt**.
+
+Können Sie die Person **zweifelsfrei zuordnen**? Begründen Sie Ihre Entscheidung.
+
+#### Lösung
+
+Gibt man im GND-Explorer "Topograf Paulus" ein, erscheint der Datensatz zu **Eduard Paulus (1803-1878)** mit der [GND-Nr. 117760269](https://explore.gnd.network/gnd/117760269).
+
+![Eingabe "Topograf Paulus" in den GND-Explorer mit Ergebnis](img/Screenshot_GND-explorer_2025-09-09_114710.jpg)
+
+Eine Suche nach „Eduard Paulus“ oder ein Blick in den Datensatz zeigt außerdem einen **[Sohn mit identischem Namen (1837–1907)](https://explore.gnd.network/gnd/116066342)**. Da der Sohn 1847 erst 10 Jahre alt war, kommt er nicht als Verfasser des Artikels infrage.
+
+**Fazit:** Die Lebensdaten ermöglichen eine eindeutige Zuordnung zum Vater.
+:::
+
+::: callout-tip
+
+#### Zentrale Erkenntnisse
+
+- **Personennamen sind häufig mehrdeutig**: Lebensdaten können die Zuordnung klären
+- **Normdaten ermöglichen eine eindeutige Identifikation**, wenn ausreichende Zusatzinformationen vorhanden sind.
+- **Die GND-Nummer fungiert als stabiler Identifikator**, unabhängig von Namensvarianten oder Schreibweisen.
+:::
+
+### Aufgabe 2 - Minimalangaben in Normdatensätzen zur Zuordnung von Personennamen
+
+Im Jahrbuch von 1866 findet sich ein Artikel, bei dem der Autor als **"Architekt Eduard Paulus"** genannt ist. [Dieser Link führt zum Digitalisat der Publikation](https://journals.ub.uni-heidelberg.de/index.php/bjb/article/view/46021).
+
+![Ausschnitt aus dem [Jahrbuch des Vereins von Alterthumsfreunden im Rheinlande Band 39/40, 1866](https://doi.org/10.11588/bjb.1866.0.46021)](img/JbAlterthumsfreunde1866_Paulus_Cannstatt.jpg)
+
+::: panel-tabset
+#### Aufgabenstellung
+
+Recherchieren Sie erneut im GND-Explorer, **um welche Person es sich handelt**.
+
+Handelt es sich denselben Autor wie im Artikel von 1847? **Welche Schwierigkeiten treten bei der Zuordnung auf?**
+
+**welche Angaben müssten in einem Normdatensatz zu Personen enthalten sein**, um sie zuverlässig zu identifizieren?
+
+#### Lösung
+
+Eine Eingabe **„Architekt Eduard Paulus“** im GND-Explorer liefert keinen Treffer.
+
+![Eingabe "Architekt Eduard Paulus" in den GND-Explorer mit Ergebnis](img/Screenshot_GND-explorer_Architekt-Paulus_2025-09-09_114710.jpg)
+
+Bei einer Recherche nach **„Eduard Paulus“** erscheinen sowohl der Vater als auch der Sohn, die **denselben Namen und eine ähnliche Profession** teilen. Beide lebten und wirkten in den 1860er Jahren, daher lassen sich Name und Lebensdaten allein nicht zur eindeutigen Zuordnung nutzen.
+
+![Vergleich der beiden Personen mit dem Namen "Eduard Paulus" im GND-Explorer](img/Screenshot_GND-explorer_Eduard-Paulus_2025-09-09_114710.jpg)
+
+Weitere Quellen, z. B. Internet-Recherchen, zeigen, dass der jüngere Eduard Paulus (1837–1907) als Architekt tätig war und vermutlich Autor des Artikels ist.
+
+**Schlussfolgerung:** Normdatensätze für Personen sollten neben dem Namen weitere unterscheidende Merkmale enthalten, z.B. **Lebensdaten**, **alternative Namensformen** und **biografische Angaben**. Eine zweifelsfreie Zuordnung gewährleistet nur ein **persistenter Identifier (PID)** wie die GND-Nummer. In den Metadaten eines Digitalisats sollte daher neben dem Autorennamen auch immer eine PID angegeben werden[^1].
+
+[^1]: Eine NFDI4Objects-OER-Übung zu persistenten Identifikatoren finden Sie [unter diesem Link](xxx).
+
+:::
+
+::: callout-tip
+
+#### Zentrale Erkenntnisse
+
+- Name und Lebensdaten allein reichen nicht immer aus, um eine Person eindeutig zu identifizieren.
+- Normdaten bilden historische Realität ab – sie lösen Mehrdeutigkeiten nicht automatisch.
+- Persistente Identifikatoren (PIDs) sind unerlässlich, um getroffene Zuordnungen transparent und nachvollziehbar zu dokumentieren.
+:::
+
+### Aufgabe 3 - Orte und Insitutionen in der GND
+
+Der Artikel aus dem [Jahrbuch von 1866](https://doi.org/10.11588/bjb.1866.0.46021) behandelt römerzeitliche Überreste an einem Fundort in der Nähe von Stuttgart. Im Text kommen verschiedene **Orts- und Institutionenbezeichnungen** vor. Auch hierzu sind in der GND Normdatensätze enthalten. Da Orts- und Institutionennamen sich häufiger ändern als Personennamen, wird in der GND meist mit eigenen Normdateneinträgen für Vorgänger und Nachfolger gearbeitet. 
+
+Schauen Sie sich an dem Beispiel eines Ortsnamens und einer Institution die GND-Einträge für Geografika und Institutionen an:
+
+::: panel-tabset
+#### Aufgabenstellung
+
+**Recherchieren** Sie den Ort **"Zatzenhausen"**, wie er in der Überschrift genannt ist. 
+**Welche Probleme** treten bei der Recherche auf? **Wie heißt der Ort heute** und **welche GND-Nummer** hat er?
+
+**Recherchieren** Sie außerdem die Institution **"Königliche Staatssammlung Vaterländischer Kunst- und Altertums-Denkmale"**. Treten bei der Recherche im GND-Explorer **Probleme** auf? Wenn ja, **welche**?
+
+#### Lösung Ortsname
+
+Das im Artikel genannte **"Zatzenhausen"** entspricht heute **"Stuttgart-Zazenhausen"** (GND-Nummer [4310680-8](https://explore.gnd.network/gnd/4310680-8)). Da die im Artikel verwendete alternative Schreibweise im GND-Datensatz nicht hinterlegt ist, wird der Ort unter der originalen Schreibweise nicht auf Anhieb gefunden. Der GND-Explorer schlägt bei der Eingabe jedoch den richtigen Ortsnamen vor. Alternativ ist eine separate Recherche notwendig, um den korrekten Ortsnamen zu finden. Diese Besonderheit tritt insbesondere in älteren und regionalen Publikationen auf.
+
+:::: {.columns}
+
+::: {.column}
+![Bei der Suche nach "Zatzenhausen" im GND-Explorer wird die richtige Schreibweise vorgeschlagen](img/Screenshot_GND-explorer_search_Zatzenhausen_2026-01-27%2009-45-38.png)
+:::
+
+::: {.column}
+![GND-Eintrag des heutigen Ortsteils "Stuttgart-Zazenhausen" mit Angabe des Vorgängers "Zazenhausen"](img/Screenshot_GND-explorer_Stuttgart-Zazenhausen_2026-01-26%2012-45-24.png)
+:::
+
+::::
+
+#### Lösung Institution
+
+Die **"Königliche Staatssammlung Vaterländischer Kunst- und Altertums-Denkmale"** ist die **Vorgängerinstitution** des heutigen **"Landesmuseums Württemberg"**. Bei der Recherche im GND-Explorer fällt auf, dass es **zwei Einträge** für die Institution gibt. Beim Vergleich der Datensätze wird deutlich, dass der erste Eintrag mit der Nummer [5266763-7](https://explore.gnd.network/gnd/5266763-7) der **Haupteintrag** ist. Solche Fehler und Doubletten können bei jedem Normdatendienst durch automatisierte Einträge, Migrationen und gleichzeitige Eingabe entstehen. **Bei der Erschließung von Metadaten ist daher genau zu prüfen, welcher Eintrag verknüpft werden soll.**
+
+![Die Suche im GND-Explorer zeigt zwei Einträge mit fast identischem Namen. Hierbei handelt es sich um eine Doublette](img/Screenshot_GND-explorer_Staatssammlung_search_2026-01-27%2009-49-52.png)
+
+Bei einem Namenswechsel von Institutionen wird in der GND meist auch ein neuer Datensatz angelegt und mit dem Datensatz der vorherigen Benennung verknüpft. Dies führt dazu, dass ein und **die selbe Institution mehrere GND-Nummern haben kann**. Hier muss individuell und kontextabhängig entschieden werden, welcher Normdatensatz mit der Institution im eigenen Datensatz verknüpft werden soll.
+:::
+
+::: {.callout-important}
+#### Zentrale Erkenntnisse
+
+- **Orts- und Institutionennamen unterliegen historischen Veränderungen** (Schreibweise, Eingemeindung, Umstrukturierung, Umbenennung).
+- Ältere oder regionale Schreibweisen sind **nicht immer als Varianten im Normdatensatz hinterlegt**.
+- Normdatendienste arbeiten mit **Vorgänger- und Nachfolgerbeziehungen**, um diese Veränderungen abzubilden.
+- Doubletten und fehlerhafte Einträge sind auch in etablierten Normdatendiensten möglich
+- Eine erfolgreiche Recherche erfordert oft **zusätzliche Kontext- oder Hintergrundkenntnisse**.
+
+:::
+
+### Transferaufgabe - Auswahl geeigneter Normdatendienste
+Neben der GND gibt es noch weitere Normdatendienste. 
+
+- Die [Virtual International Authority File (VIAF)](https://viaf.org/de) führt beispielsweise **Normdaten aus verschiedenen nationalen Bibliotheken** zusammen. 
+- Auch [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) fungiert mittlerweile als **Normdatendienst für Personennamen, Orte, Institutionen und Begriffe**. 
+
+Darüber hinaus gibt es auf bestimmte Entitäten spezialisierte Normdatendienste. 
+
+- [Geonames](https://www.geonames.org/) ist beispielsweise ein Normdatendienst, der auf **Geografika** spezialisiert ist. 
+- In [Iconclass](https://iconclass.org/de/_) sind **ikonographische Themen** klassifiziert 
+- und der [Getty Art&Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) enthält **Kunst- und Kulturobjekt-bezogene Normdaten**. 
+
+Erkunden Sie die verschiedenen Normdatendienste und machen Sie sich mit ihnen vertraut. Recherchieren Sie dazu Beispiele wie **"Eduard Paulus"**, **"Zazenhausen"**, **"Königliche Staatssammlung Vaterländischer Kunst- und Altertums-Denkmale"** sowie nach den Begriffen **"Amphore"** und **"Jupiter"**. Überlegen Sie, welche Normdatendienste Sie für die Erschließung Ihrer eigenen Projekte nutzen würden, und begründen Sie Ihre Wahl.
+
+## Weiterführende Quellen und Informationen {.appendix .unnumbered}
+
+Eng mit Normdaten verknüpft sind **kontrollierte Vokabulare**. Auch sie stellen sicher, dass ausgewählte Begriffe zweifelsfrei zugeordnet werden und Dinge miteinander vergleichbar sind. Kontrollierte Vokabulare beziehen sich meist auf projekt-, fach- oder anwendungsfallspezifische Begriffe. 
+
+Mehr zu Normdaten und kontrollierten Vokabularen erfahren Sie z. B. bei [IANUS](https://ianus-fdz.de/it-empfehlungen/projektphasen/dokumentation/kontrollierte-vokabulare-thesauri-und-normdaten/), dem [Deutschen Museumsbund](https://www.museumsbund.de/kontrollierte-vokabulare/) auf der Seite des [MusIS-Projekts beim Bibliotheksservice-Zentrum Baden-Württemberg](https://wiki.bsz-bw.de/spaces/MUSIS/pages/4887035/Regelwerke+Thesauri+Klassifikationen+Systematiken+und+Begriffslisten) oder bei [NFDI4Culture](https://docs.nfdi4culture.de/ta2-fair-handreichung/empfehlungen-zu-metadatenstandards/empfehlungen-vokabulare-normdaten-und-anwendungsontologien)
+
+Bei der GND und bei anderen Normdatenanbietern werden Personen, Institutionen und Orte unterschieden, indem sie in jeweils in einem eigenen Normdatensatz beschrieben sind. Für die eindeutige Ansprache enthält jeder Normdatensatz einen Persistenten Identifier (PID). Bei der GND entspricht das der GND-Nummer. Mehr zu PIDs erfahren Sie z.B. bei [forschungsdaten.info](https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/persistente-identifikatoren/) oder beim [PID Network Deutschland](https://www.pid-network.de/en/). Wir bieten außerdem eine [Übung zu PIDs als OER-Baustein](https://gitlab.rlp.net/n4o/oer-bausteine/n4o-oer-uebung-pids) von NFDI4Objects an. 
+
+## Nachnutzen {.appendix .unnumbered}
+
+Alle sind herzlich eingeladen, diesen Baustein und die zugehörige Copyleft-Lizenz zu nutzen, um ihr Wissen und ihre Expertise in die Verbesserung und Aktualisierung einzubringen.
+
+Unser Wunsch ist ein lebendiges, stetig aktualisiertes Dokument, das sich durch die Beiträge vieler verändert - im Einklang mit einem sich wandelnden Umfeld. Wir freuen uns im Falle einer Überarbeitung über eine kurze Notiz – das ist aber selbstverständlich keine Pflicht.
+
+<!-- Verweise auf Website und Repository werden in _oer_metadata.yml global festgelegt. Wenn die OER nicht in einem git-Repository gehostet oder online bereitgestellt werden, können die folgenden zwei Zeilen gelöscht werden. -->
+
+:link: [Dieser Baustein als Website]({{< meta site-url >}})
+
+:link: [Quarto-Quellcode dieses Bausteins]({{< meta repo-url >}})
+
+------------------------------------------------------------------------
+
+:link: Diese Übung nutzt das [OER-Übungs-Template von NFDI4Objects]({{< meta template-repo-url >}})
+
+## Disclaimer: Einsatz von LLM {.appendix .unnumbered}
+
+Bei der Erarbeitung dieser Website wurde die freie Version von ChatGPT 5 zur Unterstützung eingesetzt. die Nutzung umfasste für Formulierungshilfen und Rechtschreibprüfung. Es wird ausdrücklich darauf hingewiesen, dass die endgültige Verantwortung für die inhaltliche Richtigkeit bei der Autorin liegt
+
+------------------------------------------------------------------------
+
+```{=html}
+<!-- An dieser Stelle werden von Quarto automatisch generierte Abschnitte angehängt:
+
+Bibliographie:
+Erstellt aus den in der qmd-Datei mit [@bibtex-Schlüssel] referenzierten Einträgen aus der Datei bibliographie.bib.
+Im Text nicht referenzierte Einträge aus der bibliographie.bib werden nicht zitiert.
+Der Zitierstil wird in der _oer_metadata.yml mit dem Schlüssel 'csl:' festgelegt. Im Verzeichnis /assets/csl/ sind gängige Zitierstile als csl-Datei vorhanden. Weitere sind hier zu finden: https://www.zotero.org/styles
+
+Lizenz:
+Angabe wird übernommen aus Schlüssel 'license:' in _oer_metadata.yml
+
+Urheber:innen
+Angabe wird übernommen aus der _oer_metadata.yml Schlüssel 'copyright:'
+
+Zitiervorschläge
+Mit BibTeX zitieren:
+Automatisch von Quarto aus den Metadaten insb. aus dem Schlüssel 'citation:' in der _oer_metadata.yml generiertes bibtex-Zitat.
+
+Bitte zitieren Sie diesen OER-Baustein als:
+Angabe generiert aus:
+  _autor_innen.yml
+  Schlüssel 'title:' in der qmd-Datei
+  Schlüssel 'issued' in der _oer_metadata.yml
+  Schlüssel 'doi:' in der _oer_metadata.yml / Wenn keine doi gesetzt wird der Titel mit dem Wert aus 'site-url:' in _oer_metadata.yml verlinkt.
+-->
+```

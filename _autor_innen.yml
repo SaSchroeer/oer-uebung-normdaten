@@ -16,3 +16,15 @@ author:
     attributes:
       corresponding: true
     role: "writing – original draft"
+  - name:
+      given: Donata
+      family: Gerhards
+    orcid: 0009-0005-6915-6294
+    email: donata.gerhards@hs-mainz.de
+    affiliation: 
+      - name: Hochschule Mainz
+        city: Mainz
+        url: https://www.hs-mainz.de/
+    attributes:
+      corresponding: true
+    role: "writing – review & editing"

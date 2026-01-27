@@ -1,9 +1,9 @@
 # Beschreibende Metadaten
 abstract: |
-  Der Baustein enthält Übungen zu verschiedenen Typen von Metadaten. Anhand von Datensätzen aus dem Archaeology Data Service werden die Metadaten zu verschiedenen Dateien besprochen. Dabei werden sowohl die unterschiedlichen Arten von Metadaten für einen Datensatz erläutert als auch Metadaten verschiedener Datensätze miteinander verglichen.
+  Die vorliegende Übung führt in das Thema Normdaten ein. Anhand eines Beispiels lernen die Teilnehmenden einen Anwendungsfall für die Nutzung von Normdaten kennen und sammeln erste Erfahrungen mit der Recherche von Normdaten im GND-Explorer.
 abstract-title: "Zusammenfassung"
 description: |
-  OER-Baustein für eine Übung zu unterschiedlichen Typen von Metadaten.
+  OER-Baustein für eine Übung zum Thema Normdaten.
 funding: |
   gefördert durch die DFG (Projektnummer 501836407)
 # vgl. https://quarto.org/docs/authoring/front-matter.html#funding
@@ -22,11 +22,12 @@ categories:
 # Für die inhaltliche Erschließung keywords/Stichworte/tags sollte ein kontrolliertes Vokabular genutzt werden.
 keywords:
   - Metadaten
-  - Metadatentypen
+  - Normdaten
+  - GND
 
 # Technische Metadaten
-site-url: &site https://github.com/nfdi4objects/oer_uebung_metadatentypen
-repo-url: &repo https://nfdi4objects.github.io/oer_uebung_metadatentypen/
+site-url: &site https://github.com/nfdi4objects/oer-uebung-normdaten
+repo-url: &repo https://nfdi4objects.github.io/oer-uebung-normdaten/
 doi: XXXXXXX.XXXXXXX
 
 # Vorgaben für den Appendix "Zitat"
@@ -58,3 +59,4 @@ beispiel-key: beispiel-value
 # Referenz  im Text: {{< meta url_n4o-oer_metadaten >}}
 template-repo-url: https://github.com/nfdi4objects/oer-template-uebung
 skript-metadaten-url: https://nfdi4objects.github.io/oer-skript-metadaten/
+uebung-metadatentypen-url: https://nfdi4objects.github.io/oer-uebung-metadatentypen/
