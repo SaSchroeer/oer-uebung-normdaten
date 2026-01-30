@@ -111,7 +111,7 @@ Weitere Quellen, z. B. Internet-Recherchen, zeigen, dass der jüngere Eduard P
 
 **Schlussfolgerung:** Normdatensätze für Personen sollten neben dem Namen weitere unterscheidende Merkmale enthalten, z.B. **Lebensdaten**, **alternative Namensformen** und **biografische Angaben**. Eine zweifelsfreie Zuordnung gewährleistet nur ein **persistenter Identifier (PID)** wie die GND-Nummer. In den Metadaten eines Digitalisats sollte daher neben dem Autorennamen auch immer eine PID angegeben werden[^1].
 
-[^1]: Eine NFDI4Objects-OER-Übung zu persistenten Identifikatoren finden Sie [unter diesem Link](https://nfdi4objects.github.io/oer-uebung-pid/).
+[^1]: Eine NFDI4Objects-OER-Übung zu persistenten Identifikatoren finden Sie [unter diesem Link]({{< meta uebung-pid-url >}}).
 
 :::
 
