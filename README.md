@@ -6,7 +6,9 @@ Im Ordner "img" befindet sich das Bildmaterial, das im Script verwendet wird.
 Die Metadaten für den OER-Baustein befinden sich in den Dateien "autor_innen.yml", "oer_metadata.yml" und im Header der qmd-Datei.
 
 ## Open Educational Resources (OER)
-Für die Ordnerstruktur und den Aufbau des Templates siehe https://kacebe.github.io/n4o_oer-template-dokumentation/nutzen.html
+Für die Erstellung des Bausteins wurde das N4O-OER-Templates für Übungen genutzt ([Template öffnen](https://github.com/nfdi4objects/oer-template-uebung))
+
+Für die Ordnerstruktur und den Aufbau des Templates siehe die Dokumentation des Templates ([Dokumentation öffnen](https://nfdi4objects.github.io/oer-template-dokumentation/))
 
 Das Template ist ein Angebot der Task Area 6 von [NFDI4Objects](https://nfdi4objects.net), einem Konsortium der Nationalen Forschungsdateninfrastruktur ([NFDI](https://nfdi.de)).
 
