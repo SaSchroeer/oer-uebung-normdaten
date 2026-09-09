@@ -87,7 +87,7 @@ Auszug aus [@Bach1893].
 
 **Transkript**
 
-> 5)  **Neuenhaus OA. Nürtingen.** Von den dort stehenden Grabhügeln soll einer schon vor ca. 30 Jahren ausgegraben worden sein und 3 goldene Ringe enthalten haben. Die von **Prof. Dr. K. Miller** im Jahr 1888 ausgegrabenen 2 weiteren Hügel beanspruchten eine 2 tägige Arbeit mit 8 Arbeitern, ergaben aber keine reiche Ausbeute. Der eine Hügel von 16 m Durchmesser und 2 m Höhe enthielt einen 1 m breiten Steinkranz aus Liaskalksteinen verschiedener Grösse. Bei V. in fand sich ein Gürtelblech aus Bronze von 39 cm Länge und 15 cm Breite (jetzt in der **Staatssamml. vaterl. Altert.**). Der andere Hügel von 12 m Durchmesser und 1 ’/2 m Höhe, der aus weissem Keupersandstein aufgeführt ist, wird als ein megalithisches Denkmal erklärt. Derselbe besteht aus 28 Steinen von 60—95 cm Länge, 30—60 cm Breite und 15—20 cm Dicke. Die Steinplatten sind alle aufrecht gestellt und stehen in dem blauen Häfnerletten; ein Deckelstein mit einer Schale scheint oben gelegen zu haben. St. A. 1889 Nr. 9.
+> 5)  **Neuenhaus OA. Nürtingen.** Von den dort stehenden Grabhügeln soll einer schon vor ca. 30 Jahren ausgegraben worden sein und 3 goldene Ringe enthalten haben. Die von **Prof. Dr. K. Miller** im Jahr 1888 ausgegrabenen 2 weiteren Hügel beanspruchten eine 2 tägige Arbeit mit 8 Arbeitern, ergaben aber keine reiche Ausbeute. Der eine Hügel von 16 m Durchmesser und 2 m Höhe enthielt einen 1 m breiten Steinkranz aus Liaskalksteinen verschiedener Grösse. Bei 1/2 m fand sich ein Gürtelblech aus Bronze von 39 cm Länge und 15 cm Breite (jetzt in der **Staatssamml. vaterl. Altert.**). Der andere Hügel von 12 m Durchmesser und 1 1/2 m Höhe, der aus weissem Keupersandstein aufgeführt ist, wird als ein megalithisches Denkmal erklärt. Derselbe besteht aus 28 Steinen von 60—95 cm Länge, 30—60 cm Breite und 15—20 cm Dicke. Die Steinplatten sind alle aufrecht gestellt und stehen in dem blauen Häfnerletten; ein Deckelstein mit einer Schale scheint oben gelegen zu haben. St. A. 1889 Nr. 9.
 
 ### Aufgabe 1
 
@@ -105,16 +105,16 @@ Schauen Sie sich den GND-Eintrag an und notieren Sie die Daten, die im Eintrag z
 Im Text ist als Ausgräber K. Miller angegeben. Dabei handelt es sich um **Konrad Miller (1844-1933)**. Die GND-Nummer lautet [117043486](https://explore.gnd.network/gnd/117043486)
 
 Im Normdatensatz enthaltene Daten: 
-* Name 
-* Akademischer Grad 
-* Geschlecht 
-* Beruf(e) 
-* Lebensdaten 
-* Land 
-* Geburts- und Sterbeort  
-* Affiliation 
-* Publikationen 
-* GND-Nummer und weitere Identifikatoren
+- Name 
+- Akademischer Grad 
+- Geschlecht 
+- Beruf(e) 
+- Lebensdaten 
+- Land 
+- Geburts- und Sterbeort  
+- Affiliation 
+- Publikationen 
+- GND-Nummer und weitere Identifikatoren
 
 #### Lösungsweg
 
@@ -128,7 +128,7 @@ Ein möglicher Lösungsweg ist die Eingabe von "Miller Archäologe" im GND-Explo
 ::: panel-tabset
 #### Aufgabenstellung
 
-Recherchieren Sie, mithilfe des [GND-Explorers](https://explore.gnd.network/) die **Institution** in der das Gürtelblech aus Bronze aufbewahrt wird. Ermitteln Sie die **GND-Nummer** der genannten Institution. Wie heißt sie heute und welche GND-Nummer hat der Eintrag der heutigen Institution?
+Recherchieren Sie, mithilfe des [GND-Explorers](https://explore.gnd.network/) die **Institution**, in der das Gürtelblech aus Bronze aufbewahrt wird. Ermitteln Sie die **GND-Nummer** der genannten Institution. Wie heißt sie heute und welche GND-Nummer hat der Eintrag der heutigen Institution?
 
 ![Ausschnitt aus @Bach1893, 10.](img/fundberichte_schwaben1893_0010_Staatssamml.jpg){fig-alt="Ausschnitt aus Fundberischte aus Schwaben 1, 1893 Seite 10 mit Hervorhebung der Insitution 'Staatssaml. vaterl. alt.'."}
 
@@ -186,7 +186,7 @@ Darüber hinaus gibt es auf bestimmte Entitäten spezialisierte Normdatendienste
 
 - [Geonames](https://www.geonames.org/) ist beispielsweise ein Gazetteer-Dienst, in dem Normdaten zu Geografika recherchiert werden können.
 - Der [iDAI gazetteer](https://gazetteer.dainst.org/app/#!/home) ist ein Gazetteer und Normdatendienst, der auf ortsbezogene Daten mit archäologischem Kontext spezialisiert ist.
-- In [Iconclass](https://iconclass.org/de/_) sind **ikonographische Themen** klassifiziert
+- In [Iconclass](https://iconclass.org/de/_) sind **ikonographische Themen** klassifiziert.
 - Der [Getty Art&Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) enthält **Kunst- und Kulturobjekt-bezogene Normdaten**.
 
 Erkunden Sie die verschiedenen Normdatendienste und machen Sie sich mit ihnen vertraut. Recherchieren Sie dazu Beispiele wie **"Eduard Paulus"**, **"Oberstein"**, **"Tell Chuera"** sowie nach den Begriffen **"Amphore"** und **"Jupiter"**. Überlegen Sie, welche Normdatendienste Sie für die Erschließung Ihrer eigenen Projekte nutzen würden, und begründen Sie Ihre Wahl.
@@ -196,7 +196,7 @@ Erkunden Sie die verschiedenen Normdatendienste und machen Sie sich mit ihnen ve
 - **Orts- und Institutionennamen unterliegen historischen Veränderungen** (Schreibweise, Eingemeindung, Umstrukturierung, Umbenennung).
 - Ältere oder regionale Schreibweisen sind **nicht immer als Varianten im Normdatensatz hinterlegt**.
 - Normdatendienste arbeiten zum Teil mit **Vorgänger- und Nachfolgerbeziehungen**, um diese Veränderungen abzubilden.
-- Doubletten und fehlerhafte Einträge sind auch in etablierten Normdatendiensten möglich
+- Doubletten und fehlerhafte Einträge sind auch in etablierten Normdatendiensten möglich.
 - Eine erfolgreiche Recherche erfordert oft **zusätzliche Kontext- oder Hintergrundkenntnisse**.
 
 ## Weiterführende Quellen und Informationen {.appendix .unnumbered}
